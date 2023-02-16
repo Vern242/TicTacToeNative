@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Alert, Button, Modal, Pressable, SafeAreaView, StyleSheet, Text, View } from "react-native";
+import { Button, Modal, Pressable, SafeAreaView, StyleSheet, Text, View } from "react-native";
 
 export default function App(): JSX.Element {
   const [field, setField] = useState<Array<string>>([""]);
